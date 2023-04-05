@@ -1,0 +1,52 @@
+.onboard-background{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right,
+        rgba(255,255,255,1) 30%, 
+        rgba(255,255,255,.5)),  url('../../../../assets/images/onboard_img.png') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.onboard-content{
+    width: 50%;
+    padding: 60px 0 0 80px;
+}
+
+.onboard-logo{
+    display: flex;
+    width: 100px;
+    margin: 0 0 5rem 0;
+}
+.onboard-logo img{
+    width: 10px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    margin: 0 var(--mb-0-5) 0 0;
+}
+.onboard-logo p{
+    color: var(--first-text);
+}
+
+.onboard-content h3{
+    font-size: var(--h1txt);
+    padding: 0 0 var(--mb-0-25) 0;
+
+}
+
+.onboard-content> p{
+    font-size: var(--h6txt);
+    color: var(--second-text);
+    padding: 0 0 var(--mb-2) 0;
+}
+
+.onboard-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--mb-1-5);    
+}
+
+.onboard-buttons button{
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Close" opacity="0.4">
+    <path d="M0.5 0L0.5 16.9706" transform="matrix(0.70710677 0.70710677 -0.70710677 0.70710677 17.646446 5.646451)" id="Line" fill="none" fill-rule="evenodd" stroke="#363837" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1.33874e-29 0.5L16.9706 0.5" transform="matrix(0.70710677 0.70710677 -0.70710677 0.70710677 6.3535557 5.646447)" id="Line" fill="none" fill-rule="evenodd" stroke="#363837" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

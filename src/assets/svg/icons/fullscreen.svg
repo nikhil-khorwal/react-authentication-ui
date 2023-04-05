@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewbox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <rect width="24" height="24" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Icon--White--Full-Screen" clip-path="url(#clip_1)">
+    <path d="M0 4L4 4L4 -1.97215e-31" transform="translate(15 15)" id="Line" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M4 4L4 6.29121e-14L0 0" transform="translate(15 5)" id="Line-Copy-2" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0 0L6.66134e-15 4L4 4" transform="translate(5 15)" id="Line-Copy" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M4 0.019267L1.13701e-13 8.31721e-14L0 4" transform="translate(5 5)" id="Line-Copy-3" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

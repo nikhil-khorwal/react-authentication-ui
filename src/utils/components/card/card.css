@@ -1,0 +1,5 @@
+.card{
+    background-color: var(--sixth-text);
+    border-radius: 8px;
+    box-shadow: 0px 6px 20px rgba(13,51,32,0.1);
+}

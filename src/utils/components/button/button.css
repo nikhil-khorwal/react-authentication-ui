@@ -1,0 +1,31 @@
+@import url('../../../index.css');
+
+button {
+    box-shadow: 0px 6px 20px rgba(13, 51, 32, 0.1);
+    border-radius: var(--mb-0-5);
+    padding: var(--mb-0-75) 0 var(--mb-0-75) 0;
+    font-weight: var(--semi-bold-text);
+    font-size: var(--h5txt);
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.primaryButton {
+    background-color: var(--primary-color);
+    color: var(--sixth-text);
+    border: none;
+}
+
+
+.secondaryButton {
+    background-color: var(--sixth-text);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.disabledButton {
+    background-color: #cccccc;
+    color: var(--sixth-text);
+    border: none;
+}

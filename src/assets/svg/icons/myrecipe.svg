@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="32px" height="32px" viewbox="0 0 32 32" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Nav-3">
+    <g id="Icon-3" transform="translate(5.3333335 6.666667)">
+      <path d="M15.1111 0L16 8L0 8L0.888889 0" transform="translate(2.6666667 10.666667)" id="Rectangle" fill="none" fill-rule="evenodd" stroke="#363837" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M15.1785 10.358C14.0022 11.3758 12.4142 12 10.6667 12C8.91913 12 7.33109 11.3758 6.15485 10.358C5.76117 10.4507 5.34842 10.5 4.92308 10.5C2.20414 10.5 0 8.48528 0 6C0 3.51472 2.20414 1.5 4.92308 1.5C5.34842 1.5 5.76117 1.54931 6.15485 1.64201C7.33109 0.624209 8.91913 0 10.6667 0C12.4142 0 14.0022 0.624209 15.1785 1.64201C15.5722 1.54931 15.9849 1.5 16.4103 1.5C19.1292 1.5 21.3333 3.51472 21.3333 6C21.3333 8.48528 19.1292 10.5 16.4103 10.5C15.9849 10.5 15.5722 10.4507 15.1785 10.358Z" id="Combined-Shape" fill="none" fill-rule="evenodd" stroke="#363837" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>

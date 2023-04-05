@@ -1,0 +1,7 @@
+<svg width="24px" height="24px" viewbox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Icon-Notifications">
+                              <path d="M0 10L12 10L12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6L0 10Z" transform="translate(6 7)" id="Oval" fill="none" fill-rule="evenodd" stroke="#363837" stroke-width="1" />
+                              <path d="M0 0L2 0L2 1L0 1L0 0Z" transform="translate(11 5)" id="Rectangle" fill="none" fill-rule="evenodd" stroke="#363837" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M0 0.5L10 0.5" transform="translate(7 18.5)" id="Rectangle-Copy" fill="none" fill-rule="evenodd" stroke="#363837" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                          </svg>

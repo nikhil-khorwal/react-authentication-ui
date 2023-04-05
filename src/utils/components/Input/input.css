@@ -1,0 +1,37 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: var(--mb-1) 0 0 0;
+}
+
+.form-group label {
+  color: var(--third-text);
+  margin: 0 0 var(--mb-0-5) 0;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 1px solid var(--third-text);
+  outline: none;
+  padding: 0 0 var(--mb-0-25) 0;
+}
+
+.form-group-error {
+  margin: 0;
+}
+
+.form-group-error label {
+  color: var(--error-color);
+}
+
+.form-group-error input {
+  color: var(--error-color);
+  border-bottom: 1px solid var(--error-color);
+}
+
+.form-group-error .error-msg {
+  padding: var(--mb-0-25) var(--mb-0-25) 0 0;
+  text-align: end;
+  font-size: calc(var(--h6txt) - 2px);
+  color: var(--error-color);
+}

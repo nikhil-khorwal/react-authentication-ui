@@ -1,0 +1,160 @@
+@font-face {
+  font-family: nunito;
+  src: url(./core/fonts/Nunito/Nunito-Regular.ttf),
+    url(./core/fonts/Nunito/Nunito-SemiBold.ttf),
+    url(./core/fonts/Nunito/Nunito-Bold.ttf);
+}
+
+:root {
+  --primary-color: #30be76;
+  --primary-color-dark: #33b670;
+  --primary-color-light: #d6f2e4;
+  --error-color:#f84971;
+  --warning-color: #f8b449;
+  --first-text: #030f09;
+  --second-text: #767676;
+  --third-text: #a8a8a8;
+  --forth-text: #e6e6e6;
+  --fifth-text: #f7f8fa;
+  --sixth-text: #ffffff;
+
+  --bold-text: 700;
+  --semi-bold-text: 550;
+  --regular-text: 400;
+
+  --h1txt: 40px;
+  --h2txt: 32px;
+  --h3txt: 24px;
+  --h4txt: 20px;
+  --h5txt: 16px;
+  --h6txt: 14px;
+
+  --mb-0-25: 0.25rem; /* 4px */
+  --mb-0-5: 0.5rem; /* 8px */
+  --mb-0-75: 0.75rem; /* 12px */
+  --mb-1: 1rem; /* 16px */
+  --mb-1-5: 1.5rem; /* 20px */
+  --mb-2: 2rem; /* 24px */
+  --mb-2-5: 2.5rem; /* 28px */
+  --mb-3: 3rem; /* 32px */
+}
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: nunito;
+}
+
+img{
+  width: 100%;
+}
+
+
+
+
+
+/* auth common css */
+.auth-background{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right,
+      rgba(255,255,255,1) 50%, 
+      rgba(255,255,255,.4)),  url('./assets/images/loginbackground.png') ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-content{
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.auth-form{
+  padding: calc(var(--mb-3)) calc(var(--mb-3) + 10px);
+}
+
+.auth-form h3{
+  font-size: var(--h3txt);
+  padding: 0 0 var(--mb-0-5) 0;
+}
+.auth-form >p{
+  font-size: var(--h6txt);
+  color: var(--second-text);
+  margin: 0 0 var(--mb-2-5) 0;
+}
+
+.auth-form .forgot-password-link{
+  width: 100%;
+  text-align: end;
+  padding: var(--mb-0-5) 0 0 0;
+}
+.auth-form .forgot-password-link a{
+  text-decoration: none;
+  font-size: var(--h6txt);
+  color: var(--second-text);
+}
+.auth-form .forgot-password-link a:hover{
+  color: var(--primary-color);
+}
+
+
+.auth-form .not-register-link p,
+.auth-form .already-register-link p{
+  color: var(--third-text);
+}
+.auth-form .not-register-link,
+.auth-form .already-register-link{
+  width: 100%;
+  text-align: center;
+  padding: var(--mb-2) 0 var(--mb-0-5) 0;
+  font-size: var(--h6txt);
+}
+.auth-form .not-register-link a,
+.auth-form .already-register-link a{
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.auth-form button{
+  margin: var(--mb-1) 0 0 0;
+}
+
+
+
+
+.auth-logo{
+  width: 100%;
+  background: linear-gradient(to bottom,
+  rgba(255,255,255,.8 ), rgba(255,255,255,1)), url('./assets/images/sketchlogo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth-logo .logo{
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+.auth-logo .logo img{
+  width: 32px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  margin: 0 var(--mb-0-5) 0 0;
+}
+.auth-logo .logo p{
+  font-size: var(--h3txt);
+  color: var(--first-text);
+  font-weight: bold;
+}
